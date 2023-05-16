@@ -7,9 +7,6 @@ parser = ArgumentParser()
 parser.add_argument('config_file', help='the filename of the config to run')
 
 class Config:
-    """
-    Used for CluStR config processing
-    """
     def __init__(self, args):
         """Opens configuration file."""
         self.filename = args.config_file
